@@ -3,9 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>My Website - About</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}">
+
 </head>
 <body>
     <h1>Natonya Stewart</h1>
     <p>I'm Natonya Stewart, an Information Technology student passionate about tech and problem-solving. I'm currently learning about flask and web development. In my free time, I like to do absolutely nothing. I'm excited to see where life takes me.</p>
+    <img src="{{ url_for('static', filename='images/puppy.jpeg') }}" alt="My Image">
+
 </body>
 </html> 
